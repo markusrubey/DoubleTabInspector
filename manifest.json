@@ -1,0 +1,11 @@
+{
+  "name": "DoubleTabInspector",
+  "description": "Utility for closing duplicated chrome tabs.",
+  "version": "0.1",
+  "permissions": ["tabs"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
