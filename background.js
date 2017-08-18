@@ -19,14 +19,14 @@ chrome.runtime.onInstalled.addListener(function(reason){
 
 // Called when new tab is created
 chrome.tabs.onCreated.addListener(function(tab) {
-  if (tab.url != null && tab.url !== "undefined") {
+  if (tab.url !== null && tab.url !== "undefined") {
     console.log("tabs.onCreated:  tabId = " + tab.id + " url = " +  tab.url)
 
     // Remove old duplicated tab
     if (this.isTabKnown(tab) === true) {
       console.log("tabs.onCreated: dublicate found")
       var oldTab = findTabByUrl(tab.url)
-      if (oldTab != null) {
+      if (oldTab !== null) {
         chrome.tabs.remove(oldTab.id) // close tab
         this.removeTab(oldTab)
       }
@@ -42,14 +42,14 @@ chrome.tabs.onRemoved.addListener(function(tabId, detachInfo) {
   console.log("tabs.onRemoved:  tabId = " + tabId)
 
   var oldTab = findTabById(tabId)
-  if (oldTab != null) {
+  if (oldTab !== null) {
     this.removeTab(oldTab)
   }
 });
 
 // Called when tab is updated or refreshed
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
-    if (tab.url != null && tab.url !== "undefined") {
+    if (tab.url !== null && tab.url !== "undefined") {
       //console.log("tabs.onUpdated:  tabId = " + tabId + " url = " + tab.url)
 
       // If tab url is known find and close duplicated (older) tab
@@ -65,7 +65,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 
       // Update tabs
       var updatedTab = findTabById(tab.id)
-      if (updatedTab != null) {
+      if (updatedTab !== null) {
         this.removeTab(updatedTab)
       }
       this.addTab(tab)
