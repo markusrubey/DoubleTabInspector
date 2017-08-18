@@ -14,7 +14,7 @@ chrome.runtime.onInstalled.addListener(function(reason){
     logTabs()
   });
 
-  // TODO: Close and remove dublicates in initial tabs
+  // TODO: Close and remove duplicates in initial tabs
 });
 
 // Called when new tab is created
