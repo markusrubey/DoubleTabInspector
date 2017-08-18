@@ -1,6 +1,6 @@
 // Background job which monitors chrome tabs and closes duplicates.
 
-var tabs = new Array();
+var tabs = [];
 
 // Called when extension is installed or updated
 chrome.runtime.onInstalled.addListener(function(reason){
