@@ -20,9 +20,9 @@ chrome.tabs.onCreated.addListener(function(tab) {
 
     // Remove old duplicated tab
     if (this.isTabKnown(tab) === true) {
-      var oldTab = findTabByUrl(tab.url)
+      var oldTab = findTabByUrl(tab.url);
       if (oldTab !== null) {
-        chrome.tabs.remove(oldTab.id) // close tab
+        chrome.tabs.remove(oldTab.id); // close tab
         this.removeTab(oldTab)
       }
     }
@@ -34,7 +34,7 @@ chrome.tabs.onCreated.addListener(function(tab) {
 
 // Called when tab is closed
 chrome.tabs.onRemoved.addListener(function(tabId, detachInfo) {
-  var oldTab = findTabById(tabId)
+  var oldTab = findTabById(tabId);
   if (oldTab !== null) {
     this.removeTab(oldTab)
   }
@@ -45,17 +45,17 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     if (tab.url !== null && tab.url !== "undefined") {
       // If tab url is known find and close duplicated (older) tab
       if (this.isTabKnown(tab) === true) {
-        var tabsByUrlResult = findTabsByUrl(tab.url)
+        var tabsByUrlResult = findTabsByUrl(tab.url);
         for (var i = 0; i < tabsByUrlResult.length; i++) {
           if (tabsByUrlResult[i].id !== tab.id) {
-            chrome.tabs.remove(tabsByUrlResult[i].id) // close tab
+            chrome.tabs.remove(tabsByUrlResult[i].id); // close tab
             this.removeTab(tabsByUrlResult[i])
           }
         }
       }
 
       // Update tabs
-      var updatedTab = findTabById(tab.id)
+      var updatedTab = findTabById(tab.id);
       if (updatedTab !== null) {
         this.removeTab(updatedTab)
       }
