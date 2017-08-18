@@ -91,7 +91,7 @@ function findTabByUrl(url) {
 }
 
 function findTabsByUrl(url) {
-  var tabsByUrl = new Array();
+  var tabsByUrl = [];
 
   for (var i = 0; i < tabs.length; i++) {
     if (url === tabs[i].url) {
