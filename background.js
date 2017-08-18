@@ -4,14 +4,11 @@ var tabs = [];
 
 // Called when extension is installed or updated
 chrome.runtime.onInstalled.addListener(function(reason){
-  console.log("runtime.onInstalled:")
-
   // Set initial tabs
   chrome.tabs.query({}, function(result) {
     for (var i = 0; i < result.length; i++) {
       tabs.push(result[i])
     }
-    logTabs()
   });
 
   // TODO: Close and remove duplicates in initial tabs
@@ -20,11 +17,9 @@ chrome.runtime.onInstalled.addListener(function(reason){
 // Called when new tab is created
 chrome.tabs.onCreated.addListener(function(tab) {
   if (tab.url !== null && tab.url !== "undefined") {
-    console.log("tabs.onCreated:  tabId = " + tab.id + " url = " +  tab.url)
 
     // Remove old duplicated tab
     if (this.isTabKnown(tab) === true) {
-      console.log("tabs.onCreated: dublicate found")
       var oldTab = findTabByUrl(tab.url)
       if (oldTab !== null) {
         chrome.tabs.remove(oldTab.id) // close tab
@@ -39,8 +34,6 @@ chrome.tabs.onCreated.addListener(function(tab) {
 
 // Called when tab is closed
 chrome.tabs.onRemoved.addListener(function(tabId, detachInfo) {
-  console.log("tabs.onRemoved:  tabId = " + tabId)
-
   var oldTab = findTabById(tabId)
   if (oldTab !== null) {
     this.removeTab(oldTab)
@@ -50,8 +43,6 @@ chrome.tabs.onRemoved.addListener(function(tabId, detachInfo) {
 // Called when tab is updated or refreshed
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     if (tab.url !== null && tab.url !== "undefined") {
-      //console.log("tabs.onUpdated:  tabId = " + tabId + " url = " + tab.url)
-
       // If tab url is known find and close duplicated (older) tab
       if (this.isTabKnown(tab) === true) {
         var tabsByUrlResult = findTabsByUrl(tab.url)
@@ -112,8 +103,6 @@ function findTabById(id) {
 
 function addTab(tab) {
   tabs.push(tab)
-
-  this.logTabs()
 }
 
 function removeTab(tab) {
@@ -121,14 +110,4 @@ function removeTab(tab) {
     if (index !== -1) {
         tabs.splice(index, 1);
     }
-
-    this.logTabs()
-}
-
-function logTabs() {
-  console.log("logTabs: size = " + tabs.length)
-
-  for (var i = 0; i < tabs.length; i++) {
-    console.log("logTabs: tabId = " + tabs[i].id)
-  }
 }
