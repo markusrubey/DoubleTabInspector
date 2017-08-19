@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3e7a58b-2b4b-4045-bbc8-a19cecc718a9" name="Default" comment="Import project into WebStorm">
+    <list default="true" id="a3e7a58b-2b4b-4045-bbc8-a19cecc718a9" name="Default" comment="Add file overview">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/background.js" afterPath="$PROJECT_DIR$/background.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -26,24 +26,13 @@
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>tabs</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/background.js" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -59,7 +48,7 @@
     <option name="height" value="773" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -73,7 +62,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="DoubleTabInspector" type="cbb8eebc:String" user="DoubleTabInspector" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="DoubleTabInspector" type="cbb8eebc:String" user="DoubleTabInspector" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,12 +90,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -204,7 +207,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502902913360</updated>
-      <workItem from="1503070828679" duration="203000" />
+      <workItem from="1503070828679" duration="2571000" />
+      <workItem from="1503145779459" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="Import project into WebStorm">
       <created>1503070954395</created>
@@ -213,11 +217,67 @@
       <option name="project" value="LOCAL" />
       <updated>1503070954395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Import project into WebStorm">
+      <created>1503071037992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503071037992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix typo in comment">
+      <created>1503071084092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1503071084092</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix comparisons">
+      <created>1503071341155</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1503071341155</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Simplify array instantiation">
+      <created>1503071413597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1503071413597</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Remove logs">
+      <created>1503071509913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503071509913</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix unterminated statements">
+      <created>1503071628666</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503071628666</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add file overview">
+      <created>1503145131613</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1503145131613</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add gitignore">
+      <created>1503145650297</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1503145650297</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203000" />
+    <option name="totallyTimeSpent" value="2644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -226,12 +286,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -260,7 +320,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Import project into WebStorm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Import project into WebStorm" />
+    <MESSAGE value="Fix typo in comment" />
+    <MESSAGE value="Fix comparisons" />
+    <MESSAGE value="Simplify array instantiation" />
+    <MESSAGE value="Remove logs" />
+    <MESSAGE value="Fix unterminated statements" />
+    <MESSAGE value="Add file overview" />
+    <MESSAGE value="Add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -271,40 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1503070893000" expanded="true" signature="189:451" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="293:391" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="339:373" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="537:1008" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="589:1006" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="741:960" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="863:954" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1103:1247" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1213:1245" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1361:2083" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1415:2081" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1605:1912" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1717:1904" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1767:1894" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2008:2052" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2112:2248" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2156:2228" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2193:2222" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2277:2399" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2319:2382" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2350:2378" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2429:2597" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2503:2575" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2534:2571" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2624:2744" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2666:2727" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2695:2723" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2767:2805" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2831:2950" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2890:2928" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2971:3119" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="3062:3117" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -319,54 +352,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <marker date="1503070893000" expanded="true" signature="189:451" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="293:391" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="339:373" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="537:1008" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="589:1006" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="741:960" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="863:954" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1103:1247" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1213:1245" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1361:2083" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1415:2081" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1605:1912" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1717:1904" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="1767:1894" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2008:2052" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2112:2248" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2156:2228" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2193:2222" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2277:2399" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2319:2382" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2350:2378" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2429:2597" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2503:2575" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2534:2571" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2624:2744" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2666:2727" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2695:2723" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2767:2805" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2831:2950" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2890:2928" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="2971:3119" ph="{...}" />
-            <marker date="1503070893000" expanded="true" signature="3062:3117" ph="{...}" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="375">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="471" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>
