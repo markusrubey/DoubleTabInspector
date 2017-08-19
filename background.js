@@ -1,4 +1,6 @@
-// Background job which monitors chrome tabs and closes duplicates.
+/**
+ *  @fileOverview Monitors and closes duplicated chrome tabs.
+ */
 
 var tabs = [];
 
